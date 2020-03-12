@@ -1,0 +1,16 @@
+GET http://localhost:3000/subscribers 
+
+####
+GET http://localhost:3000/subscribers/5e4c156b610315230987c8f1
+
+###
+POST http://localhost:3000/subscribers
+Content-Type: application/json
+
+{
+    "name": "ana amezing",
+    "subscriberToChannel": "WEB dev simplyfied is great"
+}
+
+###
+DELETE http://localhost:3000/subscribers/5e4c0f846c987120f1a2c2d7
